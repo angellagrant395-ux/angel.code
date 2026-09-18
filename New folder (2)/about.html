@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="veiwport" content="width=device-width ,intial-scale=1">
+        <title>angel.code</title>
+        <link rel="shortcut icon" type="x-icon" href="flower.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+     <link rel="stylesheet" href="style.css">
+     <style>
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+           max-width: 90%;
+           width: 100%;
+           padding: 30px;
+
+        }
+     </style>
+    <body>
+        <div class="container">
+         <div class="toggle"></div>
+
+<!--JavaScrpit-->
+<script> 
+    const body = document.querySelector("body"),
+    toggle = document.querySelector(".toggle");
+
+    toggle.addEventListener("click", () => {
+        body.classList.toggle("dark")
+    })
+
+    toggle.addEventListener("click", () => toggle.classList.toggle("active"))
+    
+</script>
+
+    <div>
+
+    <div class="typewriter">
+    <h1 style="color: rgb(17, 196, 154);text-align: left;">/<span class="auto-type"></span></h1>
+    
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings : ["about me","web-devloper","graphics Designer"],
+            typeSpeed : 150,
+            backSpeed  : 150,
+            loop : true,
+        })
+    </script>
+    </div> 
+
+<nav class="paras">
+    <u1 class="para">
+<li><a href="#">
+    <p>Hello World!, My name is Faithlyn Grant, Welcome to my first website/portfolio<br>a little bit about me, I'm currently a student who is very eager to learn <br> about code and want to explore more and make fun projects such as games and useful<br> apps that every one will enjoy and be used in daylife.</p>
+</a></li>
+
+    </u1>
+</nav>
+    
+
+    <nav class="place">
+<u1 class="home">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Porfolio</a></li>
+</u1>
+</nav>
+    </div>
+    </body>
+</html>

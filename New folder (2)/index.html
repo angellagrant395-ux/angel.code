@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+       <meta name="veiwport" content="width=device-width ,intial-scale=1"> 
+        <title>angel.code</title>
+        <link rel="shortcut icon" type="x-icon" href="flower.png">
+    </head>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+           max-width: 90%;
+           width: 100%;
+           padding: 30px;
+
+        }
+     </style>
+    <body>
+         <div class="container">
+        <div class="toggle"></div>
+
+<!--JavaScrpit-->
+<script> 
+    const body = document.querySelector("body"),
+    toggle = document.querySelector(".toggle");
+
+    toggle.addEventListener("click", () => {
+        body.classList.toggle("dark")
+    })
+
+    toggle.addEventListener("click", () => toggle.classList.toggle("active"))
+    
+</script>
+
+    <div>
+    <ul class="uptop">
+        <li><a href="mailto:angellagrant395@gmail.com">Gmail</a></li>
+        <li><a href="https://youtu.be/dQw4w9WgXcQ?si=Srpkcl7nxHZtjhQQ">Images</a></li>
+    
+        <span class="material-symbols-outlined">apps</span>
+        <span class="material-symbols-outlined">account_circle</span>
+    </ul>
+    </div>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    
+    <link rel="stylesheet" href="style.css">
+
+        <h1 style="padding: 27px;text-align: center;;font-size: 80px;">
+    <span style="color:rgb(66, 133, 244);">A</span><span style="color:rgb(234, 67, 53);">n</span><span style="color:rgb(251, 188, 5);">g</span><span style="color:rgb(52, 168, 83);">e</span><span style="color:rgb(66, 133, 244);">l</span>
+
+        </h1>
+     <div class="search">
+        <form action="https://www.google.com/search" method="get" class="search-bar">
+            <input type="text" placeholder="search anything" name="q">
+            <button type="submit";span class="material-symbols-outlined">search</search></span></button>
+        </form>
+     </div> 
+
+    <div class="buttons">
+     <button class="btn">Angel Search</button>
+     <button class="btn">I'm feeling Lucky</button>
+    </div>
+
+<nav class="navbar">
+<u1 class="nav-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+</u1>
+</nav>
+</div>
+    </body>
+</html>
